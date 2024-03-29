@@ -1,0 +1,87 @@
+.card-wrapper {
+    margin: 5% 0;
+  }
+  
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+  width: 10vw; /* note i used vw not px for better responsive */
+  height: 10vw;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 1.1px;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 22px;
+  line-height: initial;
+}
+
+.dropzone {
+  border-style: dashed;
+}
+
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 30px;
+  line-height: initial;
+  color: blue;
+  text-align: center;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#classTable td, #classTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Style for the table */
+.classTable {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd; /* Border color for the table */
+  margin-left: 200px;
+}
+
+/* Style for table headers */
+.classTable th {
+  background-color: #f2f2f2; /* Light grey background color for headers */
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style for table cells */
+.classTable td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd; /* Border color between rows */
+}
+
+/* Style for the heading of the right-side table */
+#resultHolder table th {
+  background-color: #d3f2ce; /* Light green background color for right-side table heading */
+}
+
+/* Optional: Hover effect for table rows */
+.classTable tbody tr:hover {
+  background-color: #f2f2f2; /* Light grey background color on hover */
+}
+
