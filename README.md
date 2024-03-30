@@ -28,3 +28,7 @@ The Image Classifier project encompasses the following key components:
 - **Real-time Prediction:** Provides real-time predictions, enabling quick and efficient classification of images.
 
 - **User Interface:** Offers an intuitive user interface for users to interact with the image classifier seamlessly.
+
+- ## Website
+
+- [Sports Person Classifier](https://image-classifier-nine.vercel.app/)
