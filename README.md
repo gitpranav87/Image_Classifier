@@ -10,11 +10,12 @@ The Image Classifier project encompasses the following key components:
 
 2. **Data Preprocessing:** Cleaning and preprocessing the collected dataset to ensure its quality and suitability for training the classifier.
 
-3. **Model Development:** Designing and training the image classifier using machine learning algorithms such as Convolutional Neural Networks (CNNs) or other suitable models.
+3. **Model Development:** Designing and training the image classifier using machine learning algorithms such as Support Vector Machine(SVM), Random Forest Classifier, Logistic Regression and other suitable models.
 
 4. **Evaluation:** Assessing the performance of the trained model using validation and test datasets to measure its accuracy and generalization capability.
 
-5. **Deployment:** Deploying the trained model and creating a user-friendly interface (web or application) for users to interact with the classifier.
+5. **Deployment:** Deploying the trained model and creating a user-friendly interface Website [Sports Person Classifier](https://image-classifier-nine.vercel.app/)
+ for users to interact with the classifier.
 
 ## Features
 
