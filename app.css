@@ -1,10 +1,9 @@
 .card-wrapper {
-    margin: 5% 0;
-  }
-  
-/* You can adjust the image size by increasing/decreasing the width, height */
+  margin: 5% 0;
+}
+
 .custom-circle-image {
-  width: 10vw; /* note i used vw not px for better responsive */
+  width: 10vw;
   height: 10vw;
 }
 
@@ -26,7 +25,6 @@
   border-style: dashed;
 }
 
-
 .error {
   font-family: MerriweatherRegular;
   font-size: 30px;
@@ -41,7 +39,8 @@
   width: 100%;
 }
 
-#classTable td, #classTable th {
+#classTable td,
+#classTable th {
   border: 1px solid #ddd;
   padding: 8px;
 }
@@ -54,34 +53,83 @@
   color: white;
 }
 
-/* Style for the table */
 .classTable {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid #ddd; /* Border color for the table */
+  border: 1px solid #ddd;
   margin-left: 200px;
 }
 
-/* Style for table headers */
 .classTable th {
-  background-color: #f2f2f2; /* Light grey background color for headers */
+  background-color: #f2f2f2;
   padding: 8px;
   text-align: left;
 }
 
-/* Style for table cells */
 .classTable td {
   padding: 8px;
-  border-bottom: 1px solid #ddd; /* Border color between rows */
+  border-bottom: 1px solid #ddd;
 }
 
-/* Style for the heading of the right-side table */
 #resultHolder table th {
-  background-color: #d3f2ce; /* Light green background color for right-side table heading */
+  background-color: #d3f2ce;
 }
 
-/* Optional: Hover effect for table rows */
 .classTable tbody tr:hover {
-  background-color: #f2f2f2; /* Light grey background color on hover */
+  background-color: #f2f2f2;
 }
 
+.navbar {
+  background-color: #343a40;
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.navbar-brand:hover {
+  color: #ffffff;
+}
+
+.footer {
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 5px !important;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropzone {
+  border: 2px dashed #007bff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+.dropzone:hover {
+  border-color: #0056b3;
+  background-color: #e9ecef;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    font-size: 20px;
+    /* Adjust font size for smaller screens */
+  }
+
+  .classTable {
+    margin-left: 0;
+    /* Remove left margin for smaller screens */
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
