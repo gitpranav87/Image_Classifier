@@ -29,6 +29,6 @@ The Image Classifier project encompasses the following key components:
 
 - **User Interface:** Offers an intuitive user interface for users to interact with the image classifier seamlessly.
 
-- ## Website
+## Website
 
 - [Sports Person Classifier](https://image-classifier-nine.vercel.app/)
